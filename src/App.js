@@ -13,7 +13,7 @@ import ScrollToTop from './utils/scrollToTop';
 
 function App() {
   return (
-	  <div className="App">
+		<div className="App">
       <Router>
         <ScrollToTop/>
       	<Navbar />
@@ -25,7 +25,7 @@ function App() {
       	</Routes>
       	<Footer />
       </Router>
-	  </div>
+		</div>
   );
 }
 
